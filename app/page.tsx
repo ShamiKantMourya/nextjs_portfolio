@@ -3,7 +3,7 @@
 import { useEffect } from 'react';
 import Navbar from './components/layout/Navbar';
 import Home from './components/sections/Home';
-// import About from '@/components/sections/About';
+import About from './components/sections/About';
 // import Experience from '@/components/sections/Experience';
 // import Projects from '@/components/sections/Projects';
 
@@ -21,7 +21,7 @@ export default function Page() {
     <main className="min-h-screen">
       <Navbar />
       <Home />
-      {/* <About /> */}
+      <About />
       {/* <Experience /> */}
       {/* <Projects /> */}
       
